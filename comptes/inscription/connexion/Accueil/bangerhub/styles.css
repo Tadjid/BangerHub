@@ -1,0 +1,243 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    overflow-y: scroll;
+    font-family: 'Poppins', sans-serif;
+    background-color: #bbbbbb;
+    overflow-x: hidden;
+
+}
+
+
+
+.banniere {
+    width: 90%;
+    margin: 0;
+
+
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(175, 146, 146);
+    position: fixed;
+}
+
+.logo h1 {
+    margin-top: 250px;
+    color: white;
+    font-size: 65px;
+    cursor: pointer;
+
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+
+    flex: 1;
+    padding-left: 1500px;
+    text-align: right;
+    list-style-type: none;
+}
+
+ul li {
+    margin-right: 10px;
+}
+
+ul li a {
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+    padding: 30px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    line-height: 110px;
+
+}
+
+/* ul li a:hover { */
+    /* top: -10px; */
+/* } */
+
+/* ul li a:hover { */
+    /* background-color: rgba(255, 255, 255, 0.445); */
+    /* transition: 0.3s; */
+/* } */
+
+
+.bangerhub_logo {
+    width: 100%;
+    height: 110px;
+    padding-top: 16px;
+
+
+}
+
+
+.container p {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.container h1 {
+    font-size: 100px;
+    line-height: 100px;
+    margin-left: 50px;
+
+}
+
+.playlist-background {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 75vw;
+    padding: 0;
+    margin: 0;
+    margin-left: 12%;
+}
+
+.playlist-background h1 {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    font-weight: bolder;
+}
+
+.black {
+    width: 100vw;
+    height: 130px;
+    background-color: black;
+    top: 0;
+    display: flex;
+}
+
+.black img {
+    float: left;
+
+}
+
+.hover-background  {
+    height : 130px;
+    width: 330px;
+    background-color: #000000;
+    position: absolute;
+    margin-left: 1600px;
+
+}
+.hover-background a {
+    text-decoration: none;
+}
+
+.hover-background p {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    height: 100px;
+    line-height: 80px;
+}
+
+/* .hover-background:hover { */
+    /* transition: 0.3s; */
+    /* background-color: #ffffff; */
+
+    /* cursor: pointer; */
+/* } */
+
+/* .hover-background p:hover { */
+    /* transition: 0.3s; */
+    /* color:#000000; */
+/* } */
+
+
+
+
+
+
+@media screen and (max-width:1370px) {
+    .hover-background  {
+        height : 130px;
+        width: 323px;
+        background-color: #000000;
+        /* position: absolute; */
+        margin-left: 1045px;
+    }
+    
+    .hover-background a {
+        text-decoration: none;
+    }
+    
+    .hover-background p {
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        height: 100px;
+        line-height: 80px;
+    }
+}
+
+
+
+.couverture {
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    margin: 50px;
+    gap: 40px;
+    padding-top: 10px;
+}
+
+.couverture-1 {}
+
+
+
+.couverture-1 p {
+    font-weight: bold;
+
+}
+
+
+
+.submit-track {
+    display: flex;
+    width: 1500px;
+    overflow: hidden;
+    transform: translateY(-50%);
+    margin-top: 66px;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 250px;
+
+}
+.txt {
+    font-size: 25px;
+    color: #fff;
+    animation: scrollTxt 20s linear infinite;
+}
+
+
+@keyframes scrollTxt {
+    0%{
+        transform: translate(100%, 0) ;
+    }
+    100%{
+        transform: translate(-100%, 0) ;
+    }
+    
+}
+
+
+
+
